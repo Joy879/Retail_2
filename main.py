@@ -142,10 +142,10 @@ if selection== 'Analysis':
     if st.checkbox("Show shape"):
 #         # number =st.number_input("number of rows to view ")
         st.write('Data Shape')
-        st.write('{:,} rows; {:,} columns'.format(df.shape[0], df.shape[1]))
+        # st.write('{:,} rows; {:,} columns'.format(df.shape[0], df.shape[1]))
 
 #         # data description
-        st.markdown("Descriptive statistics ")
+        # st.markdown("Descriptive statistics ")
         st.write(df.describe())
 
 
